@@ -1,0 +1,15 @@
+server:
+  port: 8100
+  
+spring:
+  application:
+    name: ventas
+  
+  datasource:
+    url: jdbc:mysql://localhost:3306/ventas
+    username: root
+    password: root
+    platform: mysql
+  jpa:
+    hibernate:
+      ddl-auto: update
